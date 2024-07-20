@@ -39,5 +39,77 @@ oculos-virtual/
 ├── main.py  # Script principal para rodar o sistema
 │
 └── README.md  # Documentação do projeto
+```
+## Instalação
 
-## Instalaçao
+1. Clone o repositório:
+   
+sh
+   git clone https://github.com/seu-usuario/oculos-virtual.git
+Navegue até o diretório do projeto:
+
+sh
+Copiar código
+cd oculos-virtual
+Crie e ative um ambiente virtual (opcional, mas recomendado):
+
+sh
+Copiar código
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+Instale as dependências:
+
+sh
+Copiar código
+pip install -r requirements.txt
+Como Usar
+Certifique-se de que você tem imagens suficientes para cada símbolo na pasta symbols/.
+
+Treine o modelo executando o script principal:
+
+sh
+Copiar código
+python main.py
+O script irá capturar imagens da câmera, detectar símbolos e traduzir os mesmos em texto.
+
+Adicionando Novas Imagens
+Para melhorar o desempenho do modelo, adicione mais imagens na pasta symbols/:
+
+csharp
+Copiar código
+oculos-virtual/
+├── symbols/
+│   ├── A/
+│   │   ├── img1.png
+│   │   ├── img2.png
+│   │   ├── img3.png  # Nova imagem adicionada
+│   │   └── ...
+│   ├── B/
+│   │   ├── img1.png
+│   │   ├── img2.png
+│   │   ├── img3.png  # Nova imagem adicionada
+│   │   └── ...
+│   └── ...
+Dependências
+Python 3.x
+OpenCV
+Scikit-learn
+Joblib
+Pygame
+Você pode instalar todas as dependências necessárias usando o arquivo requirements.txt.
+
+Problemas Conhecidos
+Certifique-se de que a câmera está corretamente conectada e funcional.
+O desempenho do modelo pode variar dependendo da qualidade e quantidade de dados de treinamento.
+Para melhores resultados, utilize imagens claras e bem definidas dos símbolos.
+Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
+
+Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+csharp
+Copiar código
+
+Para adicionar novas imagens, siga as instruções na seção "Adiciona
