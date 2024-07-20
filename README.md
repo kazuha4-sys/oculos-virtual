@@ -43,41 +43,40 @@ oculos-virtual/
 ## Instalação
 
 1. Clone o repositório:
-   
-sh
-   git clone https://github.com/seu-usuario/oculos-virtual.git
-Navegue até o diretório do projeto:
+    ```sh
+    git clone https://github.com/seu-usuario/oculos-virtual.git
+    ```
 
-sh
-Copiar código
-cd oculos-virtual
-Crie e ative um ambiente virtual (opcional, mas recomendado):
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd oculos-virtual
+    ```
 
-sh
-Copiar código
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-Instale as dependências:
+3. Crie e ative um ambiente virtual (opcional, mas recomendado):
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    venv\Scripts\activate     # Windows
+    ```
 
-sh
-Copiar código
-pip install -r requirements.txt
-Como Usar
-Certifique-se de que você tem imagens suficientes para cada símbolo na pasta symbols/.
+4. Instale as dependências:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Como Usar
+
+Certifique-se de que você tem imagens suficientes para cada símbolo na pasta `symbols/`.
 
 Treine o modelo executando o script principal:
-
-sh
-Copiar código
+```sh
 python main.py
-O script irá capturar imagens da câmera, detectar símbolos e traduzir os mesmos em texto.
+```
+## Adicionando Novas Imagens
 
-Adicionando Novas Imagens
-Para melhorar o desempenho do modelo, adicione mais imagens na pasta symbols/:
+Para melhorar o desempenho do modelo, adicione mais imagens na pasta `symbols/`:
 
-csharp
-Copiar código
+```bash
 oculos-virtual/
 ├── symbols/
 │   ├── A/
@@ -91,25 +90,27 @@ oculos-virtual/
 │   │   ├── img3.png  # Nova imagem adicionada
 │   │   └── ...
 │   └── ...
-Dependências
-Python 3.x
-OpenCV
-Scikit-learn
-Joblib
-Pygame
-Você pode instalar todas as dependências necessárias usando o arquivo requirements.txt.
+´´´
+## Dependências
 
-Problemas Conhecidos
-Certifique-se de que a câmera está corretamente conectada e funcional.
-O desempenho do modelo pode variar dependendo da qualidade e quantidade de dados de treinamento.
-Para melhores resultados, utilize imagens claras e bem definidas dos símbolos.
-Contribuições
+- Python 3.x
+- OpenCV
+- Scikit-learn
+- Joblib
+- Pygame
+
+Você pode instalar todas as dependências necessárias usando o arquivo `requirements.txt`.
+
+## Problemas Conhecidos
+
+- Certifique-se de que a câmera está corretamente conectada e funcional.
+- O desempenho do modelo pode variar dependendo da qualidade e quantidade de dados de treinamento.
+- Para melhores resultados, utilize imagens claras e bem definidas dos símbolos.
+
+## Contribuições
+
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
 
-Licença
+## Licença
+
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-csharp
-Copiar código
-
-Para adicionar novas imagens, siga as instruções na seção "Adiciona
