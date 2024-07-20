@@ -39,3 +39,5 @@ oculos-virtual/
 ├── main.py  # Script principal para rodar o sistema
 │
 └── README.md  # Documentação do projeto
+
+## Instalaçao
