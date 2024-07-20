@@ -90,7 +90,7 @@ oculos-virtual/
 │   │   ├── img3.png  # Nova imagem adicionada
 │   │   └── ...
 │   └── ...
-´´´
+```
 ## Dependências
 
 - Python 3.x
@@ -109,7 +109,7 @@ Você pode instalar todas as dependências necessárias usando o arquivo `requir
 
 ## Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias, correções e ajuda na montagem.
 
 ## Licença
 
