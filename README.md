@@ -1,5 +1,5 @@
 
-# Óculos Virtual com Tradução de Símbolos
+# Óculos Virtual com Tradução de Símbolos (Use os arquivos da psta ÓculosIA)
 
 Este projeto implementa um sistema de tradução de símbolos utilizando a câmera de um notebook e um modelo de Machine Learning. Ele captura imagens da câmera, detecta e traduz símbolos impressos em um papel.
 
